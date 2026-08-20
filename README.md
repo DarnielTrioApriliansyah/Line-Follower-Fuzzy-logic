@@ -9,7 +9,7 @@ for real-time line detection and adaptive motor control.
 
 - [Introduction](#Instroduction)
 - [Literature](#Literature)
-
+- [Design of Hardware and Software](#Design of Hardware and Software)
 
 ---
 
@@ -69,6 +69,29 @@ In this project, the Raspberry Pi 4 acts as the main processing and control unit
 
 <p align="center"> <img src="images/l293d.jpg" width="400"> </p>
 
-L293D is a dual H-bridge motor driver IC used to control the direction and speed of DC motors. It acts as an interface between a microcontroller or single-board computer and the motors, allowing low-power control signals to drive higher-current motor loads.
+---
 
-In this project, the L293D is connected to the Raspberry Pi 4 and DC motors. The Raspberry Pi sends control signals to the L293D based on the output of the Fuzzy Logic controller. The L293D then controls the left and right motors, allowing the robot to move forward, turn left, turn right, or adjust its speed while following the line.
+## Design of Hardware and Software
+
+<p align="center"> <img src="images/skematik.png" width="1000"> </p>
+
+### Hardware
+
+| Component | Quantity | Function |
+|:---|:---:|:---|
+| 🤖 **Line Follower Robot Kit** | 1 | Main mechanical platform |
+| 🧠 **Raspberry Pi 4** | 1 | Main processing and control unit |
+| ⚙️ **L293D** | 1 | Controls DC motors |
+| 🖥️ **Monitor Display** | 1 | Raspberry Pi display |
+| 🔋 **Powerbank** | 1 | Power source |
+| 🔗 **Jumper Wires** | As needed | Electrical connections |
+| 📷 **Webcam** | 1 | Captures the line and track |
+
+### Software & Libraries
+
+| Software / Library | Purpose |
+|:---|:---|
+| 🐍 **Python** | Main programming language |
+| 👁️ **OpenCV** | Image processing and line detection |
+| 🧠 **scikit-fuzzy** | Fuzzy logic controller |
+| 🐧 **Raspbian OS** | Operating system for Raspberry Pi |

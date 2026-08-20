@@ -7,9 +7,10 @@ for real-time line detection and adaptive motor control.
 
 ## List of Content
 
-- [Introduction](#Instroduction)
+- [Introduction](#Introduction)
 - [Literature](#Literature)
 - [Design of Hardware and Software](#Design-of-Hardware-and-Software)
+- [Result](#Result)
 
 ---
 
@@ -95,3 +96,19 @@ In this project, the Raspberry Pi 4 acts as the main processing and control unit
 | 👁️ **OpenCV** | Image processing and line detection |
 | 🧠 **scikit-fuzzy** | Fuzzy logic controller |
 | 🐧 **Raspbian OS** | Operating system for Raspberry Pi |
+
+---
+
+## Result
+
+### Forward Condition
+
+<p align="center"> <img src="images/Maju.png" width="1000"> </p>
+
+### Left Condition
+
+<p align="center"> <img src="images/Kiri.png" width="1000"> </p>
+
+### Right Condition
+
+<p align="center"> <img src="images/Kanan.png" width="1000"> </p>

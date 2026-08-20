@@ -9,7 +9,7 @@ for real-time line detection and adaptive motor control.
 
 - [Introduction](#Instroduction)
 - [Literature](#Literature)
-- [Design of Hardware and Software](#Design of Hardware and Software)
+- [Design of Hardware and Software](#Design-of-Hardware-and-Software)
 
 ---
 
